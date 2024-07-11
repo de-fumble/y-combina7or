@@ -1,0 +1,130 @@
+body {
+  background-color: #f5f5ee;
+}
+.header-container {
+  width: 100%;
+  background-color: #f5f5ee;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 50px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  position: absolute;
+  margin-left: 3.4%;
+  margin-top: -22px;
+
+}
+
+
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-left: 10%;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-custom {
+  background-color: #f5f5eef8; /* Replace with your desired background color */
+}
+
+.navbar-custom .custom-nav {
+  margin-right: 200px; /* Pushes the navigation items to the left */
+  padding-left: 33px; /* Adjust padding as needed */
+  padding-right: 10px; /* Add space if needed */
+  
+}
+
+.navbar-custom .navbar-nav .nav-link {
+  color: black; /* Replace with your desired text color */
+}
+
+.navbar-custom .navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1); /* Optional: Adjust the border color of the toggler */
+}
+
+.navbar-custom .navbar-toggler-icon {
+  color: white /* Change color to black */
+}
+
+.navbar-custom .apply-container {
+  display: flex;
+  align-items: center;
+  margin-left: 155px; /* Adjust spacing if needed */
+}
+
+.navbar-custom .apply-batch {
+  color: black; /* Replace with your desired text color */
+}
+
+
+.apply-container {
+  display: flex;
+  align-items: center;
+}
+
+.apply-batch {
+  margin-right: 20px;
+  color: #333;
+}
+
+.apply-button {
+  background-color: #fb651e;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: #f5570e;
+}
+
+
+.contacts {
+  padding: 7% 22%;
+}
+.card_edit {
+  padding: 0% 10% 0;
+}
+.card_inner {
+  padding: 0% 10% 0;
+  font-weight: bold;
+  
+}
+h4 {
+  font-size: 1rem;
+  padding: 0% 7% 0;
+  font-weight: 400;
+
+}
